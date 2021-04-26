@@ -309,7 +309,19 @@
     .hero__description {
         font-size: 40px;
     }
-
 }
+}
+
+.footer-content {
+    width: 500px;
+} 
+
+ @media (max-width: 600px) {
+    .footer-content {
+      width: 500px;
+      display: none;
+    }
+}
+
 
 
