@@ -310,17 +310,21 @@
         font-size: 40px;
     }
 }
-}
 
-.footer-content {
-    width: 500px;
+.footer-content img {
+    width: 10vw
+    ;padding: 1rem; 
 } 
 
  @media (max-width: 600px) {
-    .footer-content {
-      width: 500px;
-      display: none;
+    .hero2 {
+      width: 100vw;
     }
+
+    .footer-content img {
+        width: 14vw
+        ;padding: 0.5rem; 
+    } 
 }
 
 
